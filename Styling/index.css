@@ -1,0 +1,54 @@
+header{
+ 
+min-height: 100vh;
+border-radius: 0px 0px 234.295px 0px;
+background: -webkit-linear-gradient(to right, #4923B4, #E878CF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4923B4, #E878CF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.transparent-button{
+    background: transparent;
+    border:1px solid white;
+    transition: background-color 1s ease-in, border 1s ease-out;
+    
+}
+.transparent-button:hover{
+    background-color: #FF00C7;
+    
+}
+.colored-button:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+.colored-button{
+    background-color: #FF00C7;
+    transition: background-color 1s ease-in,border 1s ease-out ;
+}
+.background-section{
+    background-image: url("../Data/Saly-10.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.padding-top{
+    padding-top: 20vh;
+}
+.sizenweight{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.logocentered{
+    text-align: center;
+}
+.wrapper{
+    width: fit-content;
+}
+.colored-modified-button:hover{
+    background: #4923B4;
+    border: 1px solid white;
+}
+.colored-modified-button{
+    background-color: #FF00C7;
+    transition: background-color 1s ease-in,border 1s ease-out ;
+}
