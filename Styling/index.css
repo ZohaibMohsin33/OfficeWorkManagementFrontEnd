@@ -52,3 +52,15 @@ background: linear-gradient(to right, #4923B4, #E878CF); /* W3C, IE 10+/ Edge, F
     background-color: #FF00C7;
     transition: background-color 1s ease-in,border 1s ease-out ;
 }
+.darkcolor{
+    color:#4923B4;
+}
+background-png{
+ background-image: url("../Data/Group\ 14614.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.half-height{
+    height: 50%!important;
+}
