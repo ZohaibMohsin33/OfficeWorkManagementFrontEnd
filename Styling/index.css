@@ -65,9 +65,26 @@ background: linear-gradient(to right, #4923B4, #E878CF); /* W3C, IE 10+/ Edge, F
 
 }
 .height-fixed{
-    height: 50vh!important;
+    min-height: 50vh!important;
 }
 .down{
 position: relative;
 top: 20vh;
+}
+.purple{
+    background-color: #4923B4;
+    color: white;
+}
+#getemail:placeholder{
+color: #4923B4!important;
+opacity: 1!important;
+}
+input:placeholder{
+    color: #4923B4!important;
+    opacity: 1!important;
+}
+#getemail:focus{
+    outline: none!important;
+    
+    box-shadow: none!important;
 }
