@@ -55,12 +55,19 @@ background: linear-gradient(to right, #4923B4, #E878CF); /* W3C, IE 10+/ Edge, F
 .darkcolor{
     color:#4923B4;
 }
-background-png{
- background-image: url("../Data/Group\ 14614.png");
- background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
+.parent-height{
+    height: 100%!important;
 }
-.half-height{
-    height: 50%!important;
+.graphics{
+    background-image: url("../Data/Rectangle\ 1069.png");
+    background-position: top left;
+    background-size: cover;
+
+}
+.height-fixed{
+    height: 50vh!important;
+}
+.down{
+position: relative;
+top: 20vh;
 }
