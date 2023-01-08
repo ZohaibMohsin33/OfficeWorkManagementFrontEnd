@@ -24,18 +24,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              <a class="nav-link active  nav-center" aria-current="page" onclick=activeStatus() href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Employees</a>
+              <a class="nav-link  nav-center" onclick=activeStatus() href="#">Projects</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link  nav-center" onclick=activeStatus() href="#">Employees</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link  nav-center" onclick="activeStatus()" href="#">Contact Us</a>
             </li>
 
 
@@ -57,12 +57,13 @@
     <!-- The Main section will be the part of header so that it can be implement on any page. -->
     <div class="container-fluid pt-5">
       <div class="row padding-top">
-        <div class="col-lg-5 col-12 offset-lg-2 d-flex ps-5 ps-lg-0 justify-content-center align-items-center text-light flex-column">
+        <div
+          class="col-lg-5 col-12 offset-lg-2 d-flex ps-5 ps-lg-0 justify-content-center align-items-center text-light flex-column">
           <h1 class="my-md-5">Here is the PLATEFORM to collaborate for better output</h1>
           <p>All the employees are requested to get access of the online portal to submit their daily project reports
             and to create a appreciable ability of team work.</p>
           <div class="row">
-              
+
             <div class="btn btn-block rounded-4 transparent-button text-light my-2">Check Categories</div>
             <div class="btn btn-block rounded-4 colored-button text-light my-2">Learn more</div>
 
@@ -76,6 +77,7 @@
   <main>
     <div class="container">
       <!-- Social Media section can be easily found here. -->
+
       <div class="row pt-3 pb-5">
         <div class="col-12 my-4">
           <h2 class="text-center">Find Us On......</h2>
@@ -98,7 +100,7 @@
                 <div class="col d-flex justify-content-center">
                   <a href="https://www.instagram.com/finding_zohaib/" target="_blank"
                     class="d-flex flex-column text-decoration-none wrapper">
-                    <i class="fa-brands fa-4x fa-github text-warning wrapper mb-2"></i> <span
+                    <i class="fa-brands fa-4x fa-instagram text-warning wrapper mb-2"></i> <span
                       class="text-warning sizenweight wrapper">Instagram</span>
                   </a>
                 </div>
@@ -130,7 +132,7 @@
         </div>
       </div>
       <!--Department section is Starting from here -->
-       <div class="row mt-3">
+      <div class="row mt-3">
         <div class="col-12 text-lg-start text-center">
           <h2>Our Departments</h2>
         </div>
@@ -144,7 +146,7 @@
                   <h5 class="card-title">Accounts Branch</h5>
                   <p class="card-text">Disscussions related to accounts settlement or finance should be done within this
                     section.</p>
-                  <a href="#" class="btn colored-modified-button text-light">Go somewhere</a>
+                  <a href="#" class="btn purple">Go somewhere</a>
                 </div>
               </div>
             </div>
@@ -157,7 +159,7 @@
                   <h5 class="card-title">Production Branch</h5>
                   <p class="card-text">All the pendings projects or anything related to productions of the softwares
                     will be done here.</p>
-                  <a href="#" class="btn colored-modified-button text-light">Go somewhere</a>
+                  <a href="#" class="btn purple">Go somewhere</a>
                 </div>
               </div>
             </div>
@@ -165,12 +167,12 @@
             <div class="col-2 d-md-none"></div>
             <div class="col-8 col-md-5 col-xl-3 my-3">
               <div class="card" style="width: 18rem;">
-                <img src="../Data/campaign-creators-gMsnXqILjp4-unsplash.jpg" class="card-img-top" alt="...">
+                <img src="../Data/israel-andrade-YI_9SivVt_s-unsplash (1).jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Managers Branch</h5>
                   <p class="card-text">Mutiple branches manager will collaborate here for the wheel of work to run
                     smoothly.</p>
-                  <a href="#" class="btn colored-modified-button text-light">Go somewhere</a>
+                  <a href="#" class="btn purple">Go somewhere</a>
                 </div>
               </div>
             </div>
@@ -178,12 +180,12 @@
             <div class="col-2 d-md-none"></div>
             <div class="col-8 col-md-5 col-xl-3 my-3">
               <div class="card" style="width: 18rem;">
-                <img src="../Data/campaign-creators-gMsnXqILjp4-unsplash.jpg" class="card-img-top" alt="...">
+                <img src="../Data/mario-gogh-VBLHICVh-lI-unsplash.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Marketting Branch</h5>
                   <p class="card-text">All the marketting team is required to disscuss their policies here.Their
                     stretegies will be planned here.</p>
-                  <a href="#" class="btn colored-modified-button text-light">Go somewhere</a>
+                  <a href="#" class="btn purple">Go somewhere</a>
                 </div>
               </div>
             </div>
@@ -195,7 +197,8 @@
       <!-- Starting the our Goals section -->
       <div class="row d-flex justify-content-center mt-5 ">
         <h1 class="text-center">Our Goals as Team</h1>
-        <p class="text-center mb-5">Team work makes dream work. As a member of team we require from all of you to build such
+        <p class="text-center mb-5">Team work makes dream work. As a member of team we require from all of you to build
+          such
           qualities.</p>
         <div class="col-6 col-md-3 m-3">
           <i class="fa-brands fa-3x fa-stack-exchange darkcolor my-3"></i>
@@ -251,7 +254,7 @@
       <!-- Other Section related to commercial -->
       <div class="row h-75 d-block d-md-table my-5">
         <div class="col-12 col-md-6 d-md-table-cell">
-         
+
           <h3 class="text-md-start text-center my-3">24/7 Support</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae, necessitatibus maiores eum
             ipsa libero cum blanditiis minima repellat possimus velit, molestiae harum suscipit fugiat! Fugiat dolorem
@@ -266,21 +269,20 @@
     <!-- Creator Page of the website -->
     <div class="container-fluid mt-3">
       <div class="row d-flex justify-content-center graphics height-fixed">
-      
-        
+
+
         <div class="col-2 d-xl-none"></div>
         <div class=" col-8 col-xl-3 down my-3 my-xl-0">
           <div class="card" style="width: 18rem;">
             <img src="../Data/campaign-creators-gMsnXqILjp4-unsplash.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Marketting Branch</h5>
-              <p class="card-text">All the marketting team is required to disscuss their policies here.Their
-                stretegies will be planned here.</p>
-              <a href="#" class="btn colored-modified-button text-light">Go somewhere</a>
+              <h5 class="card-title">Radia Sabahat Awan</h5>
+              <p class="card-text">She designed the web Layout. She has already done a lot of projects designing. She wanted to work in MicroStarX as a Web Designer.</p>
+              <p class="dark-background text-light p-2 min-w-50 text-center">Web Designer</p>
             </div>
           </div>
         </div>
-       
+
         <div class="col-2 d-xl-none"></div>
 
         <div class="col-2 d-xl-none"></div>
@@ -288,10 +290,9 @@
           <div class="card" style="width: 18rem;">
             <img src="../Data/campaign-creators-gMsnXqILjp4-unsplash.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Marketting Branch</h5>
-              <p class="card-text">All the marketting team is required to disscuss their policies here.Their
-                stretegies will be planned here.</p>
-              <a href="#" class="btn colored-modified-button text-light">Go somewhere</a>
+              <h5 class="card-title">Nizam Ullah</h5>
+              <p class="card-text">He handled the project with his remarkable experience.His expertise in Frontend is immutable.Recently, he's working on React.js</p>
+              <p class="dark-background text-light p-2 min-w-50 text-center">Frontend Developer</p>
             </div>
           </div>
         </div>
@@ -302,38 +303,91 @@
           <div class="card" style="width: 18rem;">
             <img src="../Data/campaign-creators-gMsnXqILjp4-unsplash.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Marketting Branch</h5>
-              <p class="card-text">All the marketting team is required to disscuss their policies here.Their
-                stretegies will be planned here.</p>
-              <a href="#" class="btn colored-modified-button text-light">Go somewhere</a>
+              <h5 class="card-title">Muhammad Zohaib Mohsin</h5>
+              <p class="card-text">He is been working on the backend projects of the learners. He has expertise in php and working on nodeJs also.</p>
+              <p class="dark-background text-light p-2 min-w-50 text-center">Backend Developer</p>
             </div>
           </div>
         </div>
         <div class="col-2 d-xl-none"></div>
       </div>
     </div>
-
+    <!-- Get some margin -->
+    <!-- USEless div -->
+    <div class="container my-5 py-5"></div>
     <!-- Signup section -->
-    <div class="container">
-      <div class="col-12 col-md-6">
-        <img src="../Data/Email campaign-amico 1.png" alt="" class="img-fluid">
-      </div>
-      <div class="col-12 col-md-6">
-           <p>Subscribe to our newsletter</p>
-           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, id eos officiis incidunt fugiat odio, cum laudantium amet blanditiis vel nulla. Reprehenderit tempore natus accusantium aspernatur exercitationem expedita, voluptate asperiores, placeat cum corrupti nisi sunt officiis porro id, rem illo! Quidem architecto vitae nesciunt vero. Facilis obcaecati consequuntur dicta assumenda!</p>
+    <div class="container mt-5 pt-5">
+      <div class="row mt-2 mt-md-5">
+        <div class="col-12 col-md-7 mb-2 mb-md-0">
+          <img src="../Data/Email campaign-amico 1.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-5 d-flex flex-column justify-content-center align-items-center my-2 my-md-0">
+          <p class="fs-2 purple-text">Be a part of us</p>
+          <p class="px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, id eos officiis incidunt
+            fugiat odio, cum laudantium amet blanditiis vel nulla. Reprehenderit tempore natus accusantium aspernatur
+            exercitationem expedita, voluptate asperiores, placeat cum corrupti nisi sunt officiis porro id, rem illo!
+            Quidem architecto vitae nesciunt vero. Facilis obcaecati consequuntur dicta assumenda!</p>
 
-           <div class="input-group mb-3">
-            <input type="email" class="form-control" id="getemail" placeholder="enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn purple" type="button" id="button-addon2">Button</button>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control border rounded-left" id="getemail" placeholder="enter your email"
+              aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn purple border rounded-right" type="button" id="button-addon2">Button</button>
           </div>
+        </div>
       </div>
     </div>
   </main>
-  <footer></footer>
+  <!-- Footer region is here -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row bg-dark">
+        <div class="col-12 col-sm-6 col-lg-5 d-flex justify-content-center align-items-start align-items-sm-center flex-column p-4">
+          <p class="fs-4 text-light">LEARNERS</p>
+          <p class="text-light text-lg-center w-50">A plateform which is for the convenience of the developers working for the
+            Learners plateform.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2 p-4">
+          <p class="text-light">General</p>
+          <ul class="text-light listing">
+            <li class="">About Us</li>
+            <li class="">Projects</li>
+            <li class="">Contact Us</li>
+            <li class="">Employees</li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2 p-4 d-sm-flex align-items-center flex-column d-lg-block">
+          <p class="text-light">Polices</p>
+          <ul class="text-light listing">
+            <li class="">Pricacy</li>
+            <li class="">Accessibility</li>
+            <li class="">Term of service</li>
+  
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 p-4">
+          <p class="text-light">Polices</p>
+          <p class="text-light">Follow us on social media and stay updated with the latest information about our services.</p>
+          <p class="text-center">
+            <i class="fa-brands fa-2x fa-twitter text-dark bg-light mx-1 border rounded-circle"></i>
+            <i class="fa-brands fa-2x fa-github text-dark bg-light mx-1 border rounded-circle"></i>
+            <i class="fa-brands fa-2x fa-facebook text-dark bg-light mx-1 border rounded-circle"></i>
+            <i class="fa-brands fa-2x fa-instagram text-dark bg-light mx-1 border rounded-circle"></i>
+          </p>
+        </div>
+      </div>
+      <div class="row text-light bg-dark">
+        <div class="col text-center">
+             <p> &copy; All Rights Reserved | 2022</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- Bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+    <!-- Custom script -->
+    <script src="/scripts/script.js"></script>
   <!-- font Awesome kit -->
   <script src="https://kit.fontawesome.com/e4f5cc4a68.js" crossorigin="anonymous"></script>
 </body>

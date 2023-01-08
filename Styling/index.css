@@ -1,20 +1,16 @@
 header{
- 
 min-height: 100vh;
 border-radius: 0px 0px 234.295px 0px;
 background: -webkit-linear-gradient(to right, #4923B4, #E878CF);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #4923B4, #E878CF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 .transparent-button{
     background: transparent;
     border:1px solid white;
     transition: background-color 1s ease-in, border 1s ease-out;
-    
 }
 .transparent-button:hover{
     background-color: #FF00C7;
-    
 }
 .colored-button:hover{
     background: transparent;
@@ -55,6 +51,9 @@ background: linear-gradient(to right, #4923B4, #E878CF); /* W3C, IE 10+/ Edge, F
 .darkcolor{
     color:#4923B4;
 }
+.dark-background{
+    background-color: #4923B4;
+}
 .parent-height{
     height: 100%!important;
 }
@@ -62,7 +61,6 @@ background: linear-gradient(to right, #4923B4, #E878CF); /* W3C, IE 10+/ Edge, F
     background-image: url("../Data/Rectangle\ 1069.png");
     background-position: top left;
     background-size: cover;
-
 }
 .height-fixed{
     min-height: 50vh!important;
@@ -74,17 +72,23 @@ top: 20vh;
 .purple{
     background-color: #4923B4;
     color: white;
+    transition: background-color 1.5s ease-in;
 }
-#getemail:placeholder{
+.purple:hover{
+    background-color: #FF00C7;
+}
+.purple-text{
+    color: #4923B4;
+}
+#getemail::placeholder{
 color: #4923B4!important;
-opacity: 1!important;
-}
-input:placeholder{
-    color: #4923B4!important;
-    opacity: 1!important;
 }
 #getemail:focus{
     outline: none!important;
-    
     box-shadow: none!important;
+}
+.listing{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
