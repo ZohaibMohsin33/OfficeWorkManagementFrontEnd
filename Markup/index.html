@@ -24,18 +24,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active  nav-center" aria-current="page" onclick=activeStatus() href="#">About Us</a>
+              <a class="nav-link active  nav-center" aria-current="page" onclick="activeStatus(event)" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  nav-center" onclick=activeStatus() href="#">Projects</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link  nav-center" onclick=activeStatus() href="#">Employees</a>
+              <a class="nav-link  nav-center" onclick="activeStatus(event)" href="#">Departments</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link  nav-center" onclick="activeStatus()" href="#">Contact Us</a>
+              <a class="nav-link  nav-center" onclick="activeStatus(event)" href="#">Goals</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link  nav-center" onclick="activeStatus(event)" href="#">Developers</a>
             </li>
 
 
@@ -132,7 +132,7 @@
         </div>
       </div>
       <!--Department section is Starting from here -->
-      <div class="row mt-3">
+      <div class="row mt-3 department">
         <div class="col-12 text-lg-start text-center">
           <h2>Our Departments</h2>
         </div>
@@ -195,7 +195,7 @@
         </div>
       </div>
       <!-- Starting the our Goals section -->
-      <div class="row d-flex justify-content-center mt-5 ">
+      <div class="row d-flex justify-content-center mt-5 goal">
         <h1 class="text-center">Our Goals as Team</h1>
         <p class="text-center mb-5">Team work makes dream work. As a member of team we require from all of you to build
           such
