@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styling/signup.scss">
+    <link rel="stylesheet" href="../Styling/signup.scss">
+    <title>Learners</title>
+</head>
+<body>
+
+<header>
+ <!--My Navbar-->
+    <nav class="navbar navbar-expand-lg bg-custom navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Learners</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active  nav-center" aria-current="page" onclick="activeStatus(event)" href="/Markup/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  nav-center" onclick="activeStatus(event)" href="#department">Departments</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link  nav-center" onclick="activeStatus(event)" href="#goal">Goals</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link  nav-center" onclick="activeStatus(event)" href="#developer">Developers</a>
+            </li>
+
+
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-current="page" href="#"><i
+                  class="fa-solid fa-user text-light mx-2"></i>Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i
+                  class="fa-solid fa-bullhorn mx-2 "></i>Announcement</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ended -->
+ </header>
+    <main>
+        <div class="form_wrapper">
+            <div class="form_container">
+              <div class="title_container">
+                <h2>Responsive Registration Form</h2>
+              </div>
+              <div class="row clearfix">
+                <div class="">
+                  <form>
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+                      <input type="email" name="email" placeholder="Email" required />
+                    </div>
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                      <input type="password" name="password" placeholder="Password" required />
+                    </div>
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                      <input type="password" name="password" placeholder="Re-type Password" required />
+                    </div>
+                    <div class="row clearfix">
+                      <div class="col_half">
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                          <input type="text" name="name" placeholder="First Name" />
+                        </div>
+                      </div>
+                      <div class="col_half">
+                        <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                          <input type="text" name="name" placeholder="Last Name" required />
+                        </div>
+                      </div>
+                    </div>
+                          <div class="input_field radio_option">
+                        <input type="radio" name="radiogroup1" id="rd1">
+                        <label for="rd1">Male</label>
+                        <input type="radio" name="radiogroup1" id="rd2">
+                        <label for="rd2">Female</label>
+                        </div>
+                        <div class="input_field select_option">
+                          <select>
+                            <option>Select a country</option>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                          </select>
+                          <div class="select_arrow"></div>
+                        </div>
+                      <div class="input_field checkbox_option">
+                          <input type="checkbox" id="cb1">
+                          <label for="cb1">I agree with terms and conditions</label>
+                      </div>
+                      <div class="input_field checkbox_option">
+                          <input type="checkbox" id="cb2">
+                          <label for="cb2">I want to receive the newsletter</label>
+                      </div>
+                    <input class="button" type="submit" value="Register" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row bg-dark">
+              <div class="col-12 col-sm-6 col-lg-5 d-flex justify-content-center align-items-start align-items-sm-center flex-column p-4">
+                <p class="fs-4 text-light">LEARNERS</p>
+                <p class="text-light text-lg-center w-50">A plateform which is for the convenience of the developers working for the
+                  Learners plateform.</p>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 p-4">
+                <p class="text-light">General</p>
+                <ul class="text-light listing">
+                  <li class="">About Us</li>
+                  <li class="">Projects</li>
+                  <li class="">Contact Us</li>
+                  <li class="">Employees</li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 p-4 d-sm-flex align-items-center flex-column d-lg-block">
+                <p class="text-light">Polices</p>
+                <ul class="text-light listing">
+                  <li class="">Pricacy</li>
+                  <li class="">Accessibility</li>
+                  <li class="">Term of service</li>
+        
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 p-4">
+                <p class="text-light">Social Media</p>
+                <p class="text-light">Follow us on social media and stay updated with the latest information about our services.</p>
+                <p class="text-center">
+                  <i class="fa-brands fa-2x fa-twitter text-dark bg-light mx-1 border rounded-circle"></i>
+                  <i class="fa-brands fa-2x fa-github text-dark bg-light mx-1 border rounded-circle"></i>
+                  <i class="fa-brands fa-2x fa-facebook text-dark bg-light mx-1 border rounded-circle"></i>
+                  <i class="fa-brands fa-2x fa-instagram text-dark bg-light mx-1 border rounded-circle"></i>
+                </p>
+              </div>
+            </div>
+            <div class="row text-light bg-dark">
+              <div class="col text-center">
+                   <p> &copy; All Rights Reserved | 2022</p>
+              </div>
+            </div>
+          </div>
+    </footer>
+    
+
+</body>
+</html>
+
+
+
+
+
