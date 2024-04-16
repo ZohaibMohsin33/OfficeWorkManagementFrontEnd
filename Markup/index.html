@@ -64,8 +64,8 @@
             and to create a appreciable ability of team work.</p>
           <div class="row">
 
-            <div class="btn btn-block rounded-4 transparent-button text-light my-2"><a class="text-light text-style-none" href="#department">Check Categories</a></div>
-            <div class="btn btn-block rounded-4 colored-button text-light my-2"><a href="#learn" class="text-light">Learn more</a></div>
+            <div class="btn btn-block rounded-4 transparent-button text-light my-2"><a class="text-light text-decoration-none" href="#department">Check Categories</a></div>
+            <div class="btn btn-block rounded-4 colored-button text-light my-2"><a href="#learn" class="text-light text-decoration-none">Learn more</a></div>
 
           </div>
         </div>
@@ -396,15 +396,15 @@
         <div class="col-12 text-center fs-5 fw-bold mb-3"> Signup </div>
         <div class="col-12">
           <!-- This is the login form  -->
-          <form method="post" action="">
+          <form onClick="return signInFunctionality()">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="signInEmail" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <input type="password" class="form-control" id="signInPassword">
             </div>
             
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -421,6 +421,8 @@
     crossorigin="anonymous"></script>
     <!-- Custom script -->
     <script src="/scripts/script.js"></script>
+    <!-- Signin validations -->
+    <script src="../scripts/SignInFunctionality.js"></script>
   <!-- font Awesome kit -->
   <script src="https://kit.fontawesome.com/e4f5cc4a68.js" crossorigin="anonymous"></script>
 </body>
